@@ -4,3 +4,55 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+
+section.main{
+    background-image: url('images/bg.svg');
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0px 80px 0px;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+}
+
+.logoMenu{
+    width: 50%;
+}
+
+.itemsMenu{
+    width: 50%;
+}
+
+.itemsMenu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itemsMenu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+.contactBtn{
+    background-color: #0F3FD3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.logoMenu{
+    color: white;
+    font-size: 23px;
+}

@@ -46,8 +46,29 @@ section.main{
     border-bottom: 2px solid #FFDD33;
 }
 
-.contactBtn{
+.itemsMenu a.contactBtn{
     background-color: #0F3FD3;
     padding: 20px;
     border-radius: 20px;
+}
+
+.itemsMenu a.contactBtn:hover{
+    border: 0;
+}
+
+.mockup{
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup img{
+    max-width: 100%;
 }

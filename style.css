@@ -72,3 +72,80 @@ section.main{
 .mockup img{
     max-width: 100%;
 }
+
+section.marks{
+    padding: 100px 0px;
+}
+
+section.marks img{
+    width: calc(100% / 5);
+}
+
+section.becauseWe{
+    padding: 40px 0px;
+    background-color: #FBFCFE;
+}
+
+section.becauseWe > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.becauseWe > .center{
+    max-width: 1280px;
+}
+
+section.becauseWe > .center > p{
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+    width: 100%;
+}
+
+.differentials{
+    display: flex;
+    margin-top: 50px;
+}
+
+.boxDifferentials{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.boxDifferentials h3{
+    font-size: 28px;
+    margin: 20px 0px;
+    color: black;
+}
+
+.boxDifferentials p{
+    color: #7E92AC;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .differentials{
+        flex-wrap: wrap;      
+    }
+
+    .boxDifferentials{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    section.marks{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.marks img{
+        width: 100%;
+        max-width: 400px;
+    }
+}

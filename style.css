@@ -1,210 +1,245 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-}
-
-section.main{
-    background-image: url('images/bg.svg');
-    min-height: 700px;
-    background-position: center;
-    background-size: cover;
-    padding: 20px 0px 80px 0px;
-}
-
-.center{
-    display: flex;
-    max-width: 1100px;
-    padding: 0 2%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-.menu{
-  display: flex;
-  width: 100%;
-}
-
-.logoMenu{
-    width: 50%;
-}
-
-.itemsMenu{
-    width: 50%;
-}
-
-.itemsMenu a{
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.itemsMenu a:hover{
-    border-bottom: 2px solid #FFDD33;
-}
-
-.itemsMenu a.contactBtn{
-    background-color: #0F3FD3;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.itemsMenu a.contactBtn:hover{
-    border: 0;
-}
-
-.mockup{
-    display: flex;
-    width: 100%;
-    color: white;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.mockup h1{
-    font-size: 50px;
-}
-
-.mockup img{
-    max-width: 100%;
-}
-
-section.marks{
-    padding: 100px 0px;
-}
-
-section.marks img{
-    width: calc(100% / 5);
-}
-
-section.becauseWe{
-    padding: 40px 0px;
-    background-color: #FBFCFE;
-}
-
-section.becauseWe > .center > h2{
-    font-size: 64px;
-    text-align: center;
-    width: 100%;
-}
-
-section.becauseWe > .center{
-    max-width: 1280px;
-}
-
-section.becauseWe > .center > p{
-    text-align: center;
-    color: #ccc;
-    font-size: 14px;
-    width: 100%;
-}
-
-.differentials{
-    display: flex;
-    margin-top: 50px;
-}
-
-.boxDifferentials{
-    box-shadow: 0px 20px 40px #2426721C;
-    width: 31%;
-    margin-right: 2%;
-    padding: 10px 20px;
-    border-radius: 20px;    
-}
-
-.boxDifferentials h3{
-    font-size: 28px;
-    margin: 20px 0px;
-    color: black;
-}
-
-.boxDifferentials p{
-    color: #7E92AC;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-
-.boxDifferentials img{
-    margin-left: -30px;
-}
-
-section.cta{
-    background-image: url(images/banner_meio.svg);
-    padding: 20px 10px;
-    min-height: 200px;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-}
-
-section.cta h2, section.cta h4{
-    font-weight: normal;
-    margin: 20px 0;
-}
-
-section.cta h2{
-    font-size: 60px;
-    margin-top: 60px;
-}
-
-section.cta a{
-    display: inline-block;
-    border-radius: 7px;
-    padding: 15px 25px;
-    font-weight: bold;
-    font-size: 17px;
-    background-color: #FFDD33;
-    text-decoration: none;
-    color: #0F3FD3;
-    margin: 20px 0px 20px 0px;
-}
-
-section.benefitsForYou{
-    display: flex;
-    margin: 0;
-}
-
-.boxBenefits{
-    display: flex;
-}
-
-.boxBenefits p{
-    padding-top: 20px;
-}
-
-section.benefitsForYou .center a{
-    display: inline-block;
-    background-color: #0F3FD3;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 7px;
-    padding: 15px 25px;
-    color: white;
-}
-
-@media screen and (max-width: 768px){
-    .differentials{
-        flex-wrap: wrap;      
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
     }
 
-    .boxDifferentials{
+    section.main{
+        background-image: url('images/bg.svg');
+        min-height: 1280px;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 0px 80px 0px;
+    }
+
+    .center{
+        display: flex;
+        max-width: 1100px;
+        padding: 0 2%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+    display: flex;
+    width: 100%;
+    }
+
+    .logoMenu{
+        width: 50%;
+    }
+
+    .itemsMenu{
+        width: 50%;
+    }
+
+    .itemsMenu a{
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .itemsMenu a:hover{
+        border-bottom: 2px solid #FFDD33;
+    }
+
+    .itemsMenu a.contactBtn{
+        background-color: #0F3FD3;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .itemsMenu a.contactBtn:hover{
+        border: 0;
+    }
+
+    .mockup{
+        display: flex;
         width: 100%;
-        margin-right: 0%;
+        color: white;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .mockup h1{
+        font-size: 50px;
+    }
+
+    .mockup img{
+        max-width: 100%;
     }
 
     section.marks{
-        flex-wrap: nowrap;
-        flex-direction: column;
-        text-align: center;
+        padding: 100px 0px;
     }
 
     section.marks img{
-        width: 100%;
-        max-width: 400px;
+        width: calc(100% / 5);
     }
-}
+
+    section.becauseWe{
+        padding: 40px 0px;
+        background-color: #FBFCFE;
+    }
+
+    section.becauseWe > .center > h2{
+        font-size: 64px;
+        text-align: center;
+        width: 100%;
+    }
+
+    section.becauseWe > .center{
+        max-width: 1280px;
+    }
+
+    section.becauseWe > .center > p{
+        text-align: center;
+        color: #ccc;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .differentials{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .boxDifferentials{
+        box-shadow: 0px 20px 40px #2426721C;
+        width: 31%;
+        margin-right: 2%;
+        padding: 10px 20px;
+        border-radius: 20px;    
+    }
+
+    .boxDifferentials h3{
+        font-size: 28px;
+        margin: 20px 0px;
+        color: black;
+    }
+
+    .boxDifferentials p{
+        color: #7E92AC;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .boxDifferentials img{
+        margin-left: -30px;
+    }
+
+    section.cta{
+        background-image: url(images/banner_meio.svg);
+        padding: 20px 10px;
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+    }
+
+    section.cta h2, section.cta h4{
+        font-weight: normal;
+        margin: 20px 0;
+    }
+
+    section.cta h2{
+        font-size: 60px;
+        margin-top: 60px;
+    }
+
+    section.cta a{
+        display: inline-block;
+        border-radius: 7px;
+        padding: 15px 25px;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: #FFDD33;
+        text-decoration: none;
+        color: #0F3FD3;
+        margin: 20px 0px 20px 0px;
+    }
+
+    section.benefitsForYou{
+        padding: 50px 0px;
+        
+    }
+
+    .boxBenefits{
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    .boxBenefits h1{
+        color: black;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .boxBenefits p{
+        font-size: 14px;
+        vertical-align: middle;
+        color: #7E92AC;
+    }
+
+    .boxBenefits span{
+        display: inline-block;
+        width: calc(100% - 70px);
+    }
+
+    .boxBenefits img{
+        display: inline-block;
+        vertical-align: middle;
+        width: 70px;
+    }
+
+    .imgBenefits{
+        width: 60%;
+    }
+
+    .imgBenefits img{
+        max-width: 100%;
+    }
+
+    section.benefitsForYou a{
+        display: inline-block;
+        border-radius: 7px;
+        padding: 15px 25px;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: #0F3FD3;
+        text-decoration: none;
+        color: white;
+        margin: 20px 0px 0px 3px;
+    }
+
+    @media screen and (max-width: 768px){
+        .boxBenefits, .imgBenefits{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .differentials{
+            flex-wrap: wrap;      
+        }
+
+        .boxDifferentials{
+            width: 100%;
+            margin-right: 0%;
+        }
+
+        section.marks{
+            flex-wrap: nowrap;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        section.marks img{
+            width: 100%;
+            max-width: 400px;
+        }
+    }

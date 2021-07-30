@@ -113,7 +113,7 @@ section.becauseWe > .center > p{
     width: 31%;
     margin-right: 2%;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 
 .boxDifferentials h3{
@@ -128,6 +128,10 @@ section.becauseWe > .center > p{
     margin-bottom: 20px;
 }
 
+.boxDifferentials img{
+    margin-left: -30px;
+}
+
 section.cta{
     background-image: url(images/banner_meio.svg);
     padding: 20px 10px;
@@ -140,23 +144,49 @@ section.cta{
 
 section.cta h2, section.cta h4{
     font-weight: normal;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 section.cta h2{
-    font-size: 40px;
+    font-size: 60px;
+    margin-top: 60px;
 }
-/* a */
+
 section.cta a{
     display: inline-block;
     border-radius: 7px;
-    padding: 8px 15px;
+    padding: 15px 25px;
     font-weight: bold;
     font-size: 17px;
     background-color: #FFDD33;
     text-decoration: none;
     color: #0F3FD3;
+    margin: 20px 0px 20px 0px;
 }
+
+section.benefitsForYou{
+    display: flex;
+    margin: 0;
+}
+
+.boxBenefits{
+    display: flex;
+}
+
+.boxBenefits p{
+    padding-top: 20px;
+}
+
+section.benefitsForYou .center a{
+    display: inline-block;
+    background-color: #0F3FD3;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 15px 25px;
+    color: white;
+}
+
 @media screen and (max-width: 768px){
     .differentials{
         flex-wrap: wrap;      
